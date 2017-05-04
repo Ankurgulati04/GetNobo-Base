@@ -1,0 +1,7 @@
+# use as docker-compose -f docker-composer.yml -f docker-compose.dev.yml up
+backend:
+  volumes:
+    - ./backend:/var/www/ol/backend
+frontend:
+  volumes:
+    - ./frontend:/var/www
